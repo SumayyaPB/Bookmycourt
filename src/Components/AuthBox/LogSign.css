@@ -1,0 +1,40 @@
+.input-field {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    width: 100%;
+  }
+  .submit-btn:hover {
+    background-color: var(--light-blue); 
+  }
+  .submit-btn {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: var(--dark-blue); 
+    color: var(--brand-white); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  .AuthBox p{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .AuthBox p i{
+    color: rgb(33, 33, 228);
+  }
+  @media (max-width: 480px){
+    .input-field {
+        font-size: 0.9rem;
+        padding: 8px;
+      }
+    
+      .submit-btn {
+        font-size: 0.9rem;
+      }
+  }

@@ -4,13 +4,14 @@ import "./LogSign.css";
 const SignupBox = ({setBoxType}) => {
   return (
     <div>
-      <div>
+      <div className='AuthBox'>
         <input type="text" placeholder="First Name" className="input-field" />
         <input type="text" placeholder="Last Name" className="input-field" />
         <input type="email" placeholder="Email" className="input-field" />
         <input type="password" placeholder="Password" className="input-field" />
-        <input type="button" value="Log In" className="submit-btn" />
-        <p>Dont have an account <i onClick={()=>setBoxType('signup')}>sign up here</i></p>
+        <input type="button" value="Sign Up" className="submit-btn" />
+        <p>Already have an account <i onClick={()=>setBoxType('login')}>login here</i></p>
+        
       </div>
     </div>
   );

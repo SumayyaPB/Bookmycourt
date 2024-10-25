@@ -3,11 +3,15 @@ import { useState } from 'react';
 import './AuthPage.css';
 import LoginBox from '../../Components/AuthBox/LoginBox';
 import SignupBox from '../../Components/AuthBox/SignupBox';
+// import Loader from '../../Components/Common/Loader';
 
 const AuthPage = () => {
     const [boxType , setBoxType] = useState('login')
   return (
-    <div className="login-page-container">
+    
+    <div>
+      {/* <Loader/> */}
+      <div className="login-page-container">
       <div className="row">
         <div className="col left-img">
           <img
@@ -20,6 +24,7 @@ const AuthPage = () => {
           {boxType==='login'?<LoginBox setBoxType={setBoxType}/>:<SignupBox setBoxType={setBoxType}/>}
         </div>
       </div>
+    </div>
     </div>
   );
 };

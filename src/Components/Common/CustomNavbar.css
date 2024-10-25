@@ -1,0 +1,18 @@
+.navbar-container {
+  /* background-color: var(--brand-white); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(128, 202, 164);
+  background-color: rgb(62 160 94);
+}
+.logo p {
+  margin-top: -0.9rem;
+  margin-inline-start: 1rem;
+  margin-bottom: 0;
+  color: var(--thin-blue);
+}
+.logo strong{
+    color: var(--dark-blue); 
+}
+
+a.nav-link {
+    color: var(--brand-white);
+}

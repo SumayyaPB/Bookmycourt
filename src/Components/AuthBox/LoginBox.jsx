@@ -8,7 +8,7 @@ const LoginBox = ({setBoxType}) => {
         <input type="email" placeholder="Email" className="input-field" />
         <input type="password" placeholder="Password" className="input-field" />
         <input type="button" value="Log In" className="submit-btn" />
-        <p>Already have an account <i onClick={()=>setBoxType('login')}>sign up here</i></p>
+        <p>Dont have an account <i onClick={()=>setBoxType('signup')}>sign up here</i></p>
       </div>
     </div>
   );

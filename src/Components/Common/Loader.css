@@ -1,0 +1,31 @@
+.spinner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #313131, #3a393a);
+    opacity: 0.8;
+    z-index: 1000;
+  }
+  
+  .loader-gif {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    animation: rotate 4s linear infinite;
+  }
+  
+  /* Rotate animation */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

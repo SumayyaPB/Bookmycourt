@@ -1,0 +1,10 @@
+.cardIcon{
+    height: 40px;
+}
+.card{
+    border: 1px thin black;
+    width: 220px;
+}
+.card h4{
+    text-align: center;
+}

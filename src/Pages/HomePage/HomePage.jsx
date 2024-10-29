@@ -18,22 +18,22 @@ const HomePage = () => {
       <CustomNavbar />
       <CustomCarosul />
       <div className="container">
-      <div className="row justify-content-around gap-4">
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div className="row justify-content-center">
+        <div className="col-12 col-sm-6 col-md-4">
           <Block
             image={<TbWorldSearch />}
             heading="Search"
             content="Are you looking to play after work, organize your Sunday five's football match? Explore sports facilities across India."
           />
         </div>
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div className="col-12 col-sm-6 col-md-4">
           <Block
             image={<BiCalendar />}
             heading="Book"
             content="Once you've found the perfect ground, court, or gym, connect with the venue through the Book Now Button to make an online booking."
           />
         </div>
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div className="col-12 col-sm-6 col-md-4">
           <Block
             image={<IoFootball />}
             heading="Play"
@@ -43,7 +43,7 @@ const HomePage = () => {
       </div>
     </div>
 
-      <div className="d-flex justify-content-between flex-wrap g-4 gy-4">
+      <div className="d-flex justify-content-center flex-wrap homeCards">
          <Cards 
             image={user}
             heading="1000+"
